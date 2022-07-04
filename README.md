@@ -13,6 +13,6 @@ Backend Link = [https://github.com/imukulsaini/Apolo-backend]
 
 Env Variables
 
-REACT_APP_API_KEY
-REACT_APP_USERNAME
-REACT_APP_PASSWORD
+* REACT_APP_API_KEY
+* REACT_APP_USERNAME
+* REACT_APP_PASSWORD
