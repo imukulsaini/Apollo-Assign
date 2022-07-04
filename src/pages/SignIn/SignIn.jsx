@@ -21,7 +21,7 @@ export default function SignIn() {
 
   useEffect(() => {
     if (checkautoFill === "yes") {
-      setValue("email", process.env.REACT_APP_USERNAME);
+      setValue("email", process.env.REACT_APP_EMAIL);
       setValue("password", process.env.REACT_APP_PASSWORD);
     } else {
       setValue("email", "");

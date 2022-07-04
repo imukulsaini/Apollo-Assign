@@ -12,7 +12,7 @@ import {
 import { userInfo } from "./queries/queries";
 
 export const client = new ApolloClient({
-  uri: process.env.REACT_APP_API_KEY,
+  uri: "https://Assignment.imukulsaini.repl.co/graphql",
 
   cache: new InMemoryCache({
     typePolicies: {
