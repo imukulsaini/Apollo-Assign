@@ -1,0 +1,86 @@
+.postcard {
+  border: 1px solid pink;
+}
+
+.postcard {
+  background-color: var(--white);
+  display: flex;
+  border: 1px solid var(--border);
+  width: 100%;
+  height: 14.5rem;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+.border-highlight {
+  border: 1px solid var(--highlight-color);
+}
+.unread {
+  background-color: var(--background-secondary);
+}
+.post__avatar {
+  width: 2.2rem;
+  height: 2.2rem;
+  background-color: inherit;
+}
+.avatar-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 25%;
+}
+.highlight__info {
+  background-color: inherit;
+  padding-left: 0.2rem;
+}
+.post__right {
+  background-color: inherit;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 1rem;
+  color: var(--text-color);
+}
+.post__address {
+  background-color: inherit;
+}
+.post__subject {
+  background-color: inherit;
+}
+.post__des {
+  background-color: inherit;
+  width: 90%;
+  padding: 0.7rem;
+  min-height: fit-content;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.post__date {
+  background-color: inherit;
+}
+.post__isfavorite {
+  color: var(--highlight-color);
+  font-weight: 600;
+  background-color: inherit;
+}
+.post__footer {
+  background-color: inherit;
+  margin-top: 0.3rem;
+  display: flex;
+  gap: 2rem;
+}
+.bookmark__button {
+  width: 10rem;
+  height: 2rem;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  background-color: var(--background-secondary);
+}
+.bookmark__button:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}

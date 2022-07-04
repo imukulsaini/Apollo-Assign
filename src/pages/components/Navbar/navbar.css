@@ -1,0 +1,54 @@
+.nav {
+  display: flex;
+  height: 4rem;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-around;
+  background-color:var(--background-primary);
+  border: 1px solid var(--border-color);
+}
+.nav-info {
+  display: flex;
+  margin-left: 1rem;
+  list-style: none;
+  gap: 2rem;
+}
+
+.nav-item {
+  width: 6rem;
+  height: 2rem;
+  text-align: center;
+  border-radius: 8px;
+  padding: 0.5rem;
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--primary-text-color);
+  border: 1px solid var(--highlight-color);
+}
+
+.selected-route {
+  background-color: var(--button-primary);
+  border: 1px solid var(--border);
+}
+.nav__brand {
+  cursor: pointer;
+  color: var(--primary-text-color);
+}
+.create__post-button{
+  width: 7rem;
+  height: 2rem;
+  background-color: var(--highlight-color);
+  color: var(--white);
+  border:none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.logout__button{
+  width: 4rem;
+  font-size: 0.9rem;
+  height: 2rem;
+}
+.nav__right{
+  display: flex;
+  gap:1rem;
+}
