@@ -1,0 +1,15 @@
+.bookmark {
+  width: 100%;
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.bookmark__main {
+  align-self: center;
+  width: 80%;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
