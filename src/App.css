@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+console.log("HEllo")
 :root{
 
   --background-primary: #f4f5f9;
